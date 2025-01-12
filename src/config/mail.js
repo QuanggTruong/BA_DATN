@@ -18,7 +18,7 @@ const templateReplyContactPath = path.resolve(
   __dirname,
   "..",
   "template",
-  "replyContactEmailTemplate.html"
+  "replycontactEmailTemplate.html"
 );
 
 const emailTemplate = fs.readFileSync(templatePath, "utf8");
@@ -66,7 +66,7 @@ export const sendEmail = ({
   });
 
   const mainOptions = {
-    from: "The-gioi-den",
+    from: "SenAquatic,
     to: email,
     subject,
     template,
