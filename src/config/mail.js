@@ -66,7 +66,7 @@ export const sendEmail = ({
   });
 
   const mainOptions = {
-    from: "SenAquatic,
+    from: "SenAquatic",
     to: email,
     subject,
     template,
